@@ -1,0 +1,17 @@
+html{
+	background-color: #ffffff;
+}
+img{
+  	width: 500px;
+}
+footer{
+	font-size: 14.5px;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	border-top: 0.5px solid #000000;
+}
+.centrado{
+	margin: 10px auto;
+	display: block;
+}
+
