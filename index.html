@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <title>Generador de citas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script class="text">
+        var Quotation= new Array()
+        Quotation[0] = "Tu amor me hace fuerte, tu odio me hace imparable. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[1] = "Quizás me odian porque soy muy bueno. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[2] = "Estoy viviendo un sueño del que nunca me quiero levantar. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[3] = "Algunos fans me abuchean y silban porque soy guapo, rico y buen jugador. Me envidian. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[4] = "Yo sé que al que le gusta el fútbol, le gusto yo. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[5] = "No tengo que demostrar nada a nadie. No hay nada que demostrar. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[6] = "Quiero ganar, independientemente de donde sea. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[7] = "Aún recuerdo cuando mi maestra me decía que el fútbol no daba de comer. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[8] = "Demasiada humildad es un defecto. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[9] = "El talento no lo es todo. Lo puedes tener desde la cuna, pero es necesario aprender el oficio para ser el mejor. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[10] = "¿Por qué mentir? No voy a ser un hipócrita y decir lo opuesto a lo que pienso, como hacen otros. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[11] = "No soy un perfeccionista, pero me gusta sentir que las cosas se hacen bien. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[12] = "Yo sigo haciendo mi historia, escribo mi página en la historia del fútbol. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[13] = "¿Quién ha vuelto a marcar más goles esta temporada? A lo mejor la Champions debe cambiar de nombre y llamarse CR7 Champions. - Cristiano Ronaldo dos Santos Aveiro.";
+        Quotation[14] = "Pasé de ser un humilde joven de Madeira al futbolista mejor pagado del mundo. - Cristiano Ronaldo dos Santos Aveiro.";
+        var Q = Quotation.length;
+        var citaAleatoria=Math.round(Math.random()*(Q-1));
+        function mostrarCitas() {
+            document.write(Quotation[citaAleatoria]);}
+        </script>
+    <section>
+        <img class="centrado" src="Imagen\cr7.jpg" alt="Cristiano Ronaldo">
+	</section>
+    <script class="text">mostrarCitas();</script>
+</body>
+<footer><p>Grillo Franco 4to 3era.</p><p>https://github.com/FrancoGrillo/generador-de-citas.git</p></footer>
+</html>
